@@ -16,7 +16,7 @@
  */
 
 // ** MySQL settings - You can get this info from your web host ** //
-/** The name of the database for WordPress 
+/** The name of the database for WordPress
  *
  *  compose.io format
  *  mysql://USER:PASSWORD@COMPOSE_REGION:PORT/compose
@@ -113,6 +113,12 @@ define('WPLANG', '');
  * in their development environments.
  */
 define('WP_DEBUG', false);
+define('WP_CACHE', true);
+define('WP_REDIS_CLIENT', ' admin');
+define('WP_REDIS_SCHEME', 'rediss');
+define('WP_REDIS_PASSWORD', 'KIDZLXGLAGHEANYD');
+define('WP_REDIS_HOST', 'portal1271-15.bmix-dal-yp-2084e8d8-e4b7-45e0-88e6-21fab797a64c.jmills25-student-ccc-edu.composedb.com');
+define('WP_REDIS_PORT', '40443');
 
 /* That's all, stop editing! Happy blogging. */
 
